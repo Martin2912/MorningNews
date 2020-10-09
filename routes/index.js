@@ -100,10 +100,7 @@ router.post('/sign-in', async function(req,res,next){
 router.post('/save-article', async function(req,res,next){
   var user = 
 
-
   res.json({result, user, error, token})
-
-
 })
 //Fin ajout Martin
 module.exports = router;
